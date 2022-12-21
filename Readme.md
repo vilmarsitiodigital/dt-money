@@ -1,52 +1,121 @@
-# DT MONEY
+<h1 align="center">
+  <img alt="Ignite Dt Money" src="https://res.cloudinary.com/vilmarbatista/image/upload/v1671656300/Development/Ignite/dtmoney_reckkk.png" width="100%" />
+</h1>
 
-## 📋 Table of contents
+<h3 align="center">
+  Web Application for Dt Money
+</h3>
 
-- [About](#about)
-- [Step by step to use the application](#step-by-step-to-use-the-application)
-- [Built with](#built-with)
-- [Author](#author)
+<p align="center">Enter products, enter address and payment method to complete a purchase</p>
 
-## 📃 About
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/dt-money?color=%2300875F">
 
-DT Money is an ideal finance control system for keeping track of your monthly consumption and income. With it, the user can perform the following operations:
+  <a href="https://www.linkedin.com/in/vilmarbatista/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-vilmar-00875F">
+  </a>
 
-- Add a new input or output;
-- Filter transactions by description, value, category or date;
-- View the sum of entries and exits, and the final balance of the period;
-- Filter the transactions in monthly periods, being able to visualize the sum of the entries, exits and balance of each month.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/dt-money?color=%2300875F">
 
-![](./src/assets/demo.gif)
+  <a href="https://github.com/vilmarsitiodigital/dt-money/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/dt-money?color=%2300875F">
+  </a>
 
-## 🚀 Step by step to use the application
+  <a href="https://github.com/vilmarsitiodigital/dt-money/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/dt-money?color=%2300875F">
+  </a>
 
-1 - Install the dependencies:
+  <a href="https://github.com/vilmarsitiodigital/dt-money/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/dt-money?color=%2300875F">
+  </a>
+</p>
 
-```
-  npm install
-```
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-2 - Run the web aplication in development mode:
+## ✅ About the project
 
-```
-  npm run dev
-```
+This project is the second ignite Rocketseat challenge from the reactjs study platform.
 
-3 - Run the local database:
+The user can enter transactions, list transactions and pagination transactions.
 
-```
-  npm run dev:server
-```
+## 🚀 Technologies
 
-## 🔧 Built with
+Technologies that I used to develop this api
 
 - [React JS](https://pt-br.reactjs.org/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Styled-components](https://styled-components.com/)
-- [Vitest](https://vitest.dev/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Vite JS](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Phosphoricons](https://phosphoricons.com/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://axios-http.com/)
+- [Radix Ui](https://www.radix-ui.com/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Zod](https://www.radix-ui.com/)
+- [Use Context Selector](https://www.npmjs.com/package/use-context-selector/)
 
-## 🤵 Author
 
-- [LinkedIn](https://www.linkedin.com/in/kevenpacheco/)
-# dt-money
+## 💻 Getting started
+
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/vilmarsitiodigital/dt-money.git && cd dt-money
+```
+
+**Follow the steps below**
+
+```bash
+# Install the dependencies
+$ npm i
+
+# Run json server in terminal window
+$ npm run dev:server
+
+# To finish, run in outher terminal
+$ npm run dev
+
+# Well done, project is started!
+```
+
+## 🤔 How to contribute
+
+**Make a fork of this repository**
+
+```bash
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
+
+$ gh repo fork vilmarsitiodigital/dt-money
+```
+
+**Follow the steps below**
+
+```bash
+# Clone your fork
+$ git clone your-fork-url && cd dt-money
+
+# Create a branch with your feature
+$ git checkout -b my-feature
+
+# Make the commit with your changes
+$ git commit -m 'Feature: My new feature'
+
+# Send the code to your remote branch
+$ git push origin my-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with 💚 by Vilmar Batista 🤝 [See my linkedin](https://www.linkedin.com/in/vilmarbatista/)
